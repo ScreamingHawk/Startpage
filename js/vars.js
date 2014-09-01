@@ -8,6 +8,7 @@ var search = [ // Search engines (first is default)
 	["!df", "http://dwarffortresswiki.org/index.php?search=DF2014+", "Dwarf Fortress Wiki"],
 	["!a", "https://awesome.naquadah.org/w/index.php?search=", "Awesome WM Wiki"],
 	["!m", "http://www.imdb.com/find?q=", "IMDb"],
+	["!t", "http://thepiratebay.org/search/", "The Pirate Bay"],
 	["!u", "http://www.urbandictionary.com/define.php?term=", "Urban Dictionary"]
 ];
 
