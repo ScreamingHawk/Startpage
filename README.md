@@ -8,6 +8,8 @@ The repository is a collection of webpages that are intended to be used as start
 
 Note: Missing instructions do not necessarily represent incompatibility. 
 
+To get the URL for the desired page you can either download the page (and it's dependencies) to use locally or prepend ```http://htmlpreview.github.io/?``` to one of the pages in the repository. For example: ```https://github.com/ScreamingHawk/Startpage/blob/master/startpage1.html``` will become ```http://htmlpreview.github.io/?https://github.com/ScreamingHawk/Startpage/blob/master/startpage1.html```.
+
 ### Chrome
 
 #### Start page
