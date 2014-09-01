@@ -1,0 +1,160 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #EAEAEA;
+}
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a, a:link, a:visited { 
+	color: #444;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #222;
+}
+
+.center { 
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.center .content {
+	margin: auto;
+	overflow: auto;
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	opacity: 1;
+	transition: .3s ease-out;
+}
+
+#q {
+	width: 500px;
+	background: #FFF;
+	color: #222;
+	border: 1px solid #EAEAEA;
+	border-radius: 4px;
+	padding: 8px 8px;
+	font-size: 12pt;
+}
+#q:focus { 
+	border: 1px solid #87A9E2;
+	outline: none;
+}
+
+#more {
+	width: 24px;
+	line-height: 24px;
+	background: #CECECE;
+	color: #FFF;
+	border-radius: 2px;
+	cursor: pointer;
+	margin: 20px auto 20px;
+	font-size: 22pt;
+	font-family: "Droid Sans";
+	font-weight: bold;
+}
+
+#help {
+	display: inline-block;
+	width: 320px;
+	cursor: default;
+	background: #CECECE;
+	color: #444;
+	border-radius: 2px;
+	text-align: left;
+	font-family: "Droid Sans Mono";
+	opacity: 0;
+	transition: .2s ease-out;
+	padding: 8px;
+}
+
+#grip {
+	width: 100%;
+	height: 64px;
+	background: transparent;
+}
+#menu {
+	position: fixed;
+	bottom: -64px;
+	left: 0;
+	z-index: 11;
+	width: 100%;
+	height: 128px;
+	background: transparent;
+	color: #444;
+	cursor: default;
+	transition: .2s ease-out;
+}
+#menu:hover {
+	bottom: 0;
+}
+
+#mnu {
+	height: 64px;
+	line-height: 32px;
+}
+
+#menu label {
+	padding: 0;
+	display: inline-block;
+	font-weight: bold;
+	width: 180px;
+}
+
+#menu ul  {
+	display: table;
+	position: relative;
+}
+
+#menu ul li {
+	float: left;
+	border-radius: 2px;
+	height: 64px;
+}
+#menu ul li:hover {
+	background: #CECECE;
+	color: #222;
+}
+#menu ul li:hover > ul {
+	visibility: visible;
+	bottom: 100%;
+	opacity: 1;
+	transition: .2s ease-out;
+}
+#menu ul li a {
+	display: block;
+	white-space: nowrap;
+	padding: 0 10px;
+}
+
+#menu ul ul {
+	visibility: hidden;
+	width: 180px;
+	position: absolute;
+	bottom: 200%;
+	background: transparent;
+	transition: .3s ease-out;
+	opacity: 0;
+}
+
+#menu ul ul li {
+	width: 100%;
+	height: 32px;
+}
+#menu ul ul li:hover {
+	background: #CECECE;
+}
