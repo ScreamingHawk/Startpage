@@ -1,19 +1,20 @@
 var $ = function(id) { return document.getElementById(id); };
  
 var search = [ // Search engines (first is default)
-	["!g", "https://www.google.no/#q=", "Google (Default)"], 
-	["!i", "https://www.google.no/search?tbm=isch&q=", "Google Images"], 
-	["!y", "https://www.youtube.com/results?search_query=", "YouTube"], 
-	["!w", "http://en.wikipedia.org/w/index.php?search=", "Wikipedia"], 
-	["!m", "http://www.imdb.com/find?q=", "IMDb"], 
+	["!g", "https://www.google.no/#q=", "Google (Default)"],
+	["!i", "https://www.google.no/search?tbm=isch&q=", "Google Images"],
+	["!y", "https://www.youtube.com/results?search_query=", "YouTube"],
+	["!w", "http://en.wikipedia.org/w/index.php?search=", "Wikipedia"],
+	["!df", "http://dwarffortresswiki.org/index.php?search=DF2014+", "Dwarf Fortress Wiki"],
+	["!a", "https://awesome.naquadah.org/w/index.php?search=", "Awesome WM Wiki"],
+	["!m", "http://www.imdb.com/find?q=", "IMDb"],
 	["!u", "http://www.urbandictionary.com/define.php?term=", "Urban Dictionary"]
 ];
 
 var menus = [
 	["News", [
 		["Arch Linux", "http://archlinux.org"],
-		["GameSpot", "http://gamespot.com"],
-		["IGN", "http://ign.com"],
+		["Hacker News", "https://news.ycombinator.com/"],
 		["Stuff", "http://stuff.co.nz"]
 	]],
 	["4chan", [
@@ -32,7 +33,6 @@ var menus = [
 		["YouTube", "http://youtube.com"]
 	]],
 	["Other", [
-		["Facebook", "http://facebook.com"],
 		["Pastebin", "http://pastebin.com"],
 		["Userstyles", "http://userstyles.org/"],
 		["Wallbase", "http://wallbase.cc"]
