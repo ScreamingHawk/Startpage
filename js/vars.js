@@ -5,8 +5,8 @@ var search = [ // Search engines (first is default)
 	["!i", "https://www.google.no/search?tbm=isch&q=", "Google Images"],
 	["!y", "https://www.youtube.com/results?search_query=", "YouTube"],
 	["!w", "http://en.wikipedia.org/w/index.php?search=", "Wikipedia"],
-	["!df", "http://dwarffortresswiki.org/index.php?search=DF2014+", "Dwarf Fortress Wiki"],
-	["!a", "https://awesome.naquadah.org/w/index.php?search=", "Awesome WM Wiki"],
+	["!df", "http://dwarffortresswiki.org/index.php?search=DF2014%3A", "Dwarf Fortress Wiki"],
+	["!a", "https://awesome.naquadah.org/w/index.php?search=", "AwesomeWM Wiki"],
 	["!m", "http://www.imdb.com/find?q=", "IMDb"],
 	["!t", "http://thepiratebay.org/search/", "The Pirate Bay"],
 	["!u", "http://www.urbandictionary.com/define.php?term=", "Urban Dictionary"]
