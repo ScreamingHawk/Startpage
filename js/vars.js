@@ -1,8 +1,8 @@
 var $ = function(id) { return document.getElementById(id); };
  
 var search = [ // Search engines (first is default)
-	["!g", "https://www.google.no/#q=", "Google (Default)"],
-	["!i", "https://www.google.no/search?tbm=isch&q=", "Google Images"],
+	["!g", "https://www.google.co.nz/#q=", "Google (Default)"],
+	["!i", "https://www.google.co.nz/search?tbm=isch&q=", "Google Images"],
 	["!y", "https://www.youtube.com/results?search_query=", "YouTube"],
 	["!w", "http://en.wikipedia.org/w/index.php?search=", "Wikipedia"],
 	["!df", "http://dwarffortresswiki.org/index.php?search=DF2014%3A", "Dwarf Fortress Wiki"],
