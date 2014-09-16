@@ -9,6 +9,8 @@ var search = [ // Search engines (first is default)
 	["!a", "https://awesome.naquadah.org/w/index.php?search=", "AwesomeWM Wiki"],
 	["!m", "http://www.imdb.com/find?q=", "IMDb"],
 	["!t", "http://thepiratebay.org/search/", "The Pirate Bay"],
+	["!e", "https://wiki.eveonline.com/en/wiki/Special:Search?search=", "EVE Online Wiki"],
+	["!eu", "http://wiki.eveuniversity.org/w/index.php?search=", "EVE University Online Wiki"],
 	["!u", "http://www.urbandictionary.com/define.php?term=", "Urban Dictionary"]
 ];
 
@@ -16,7 +18,13 @@ var menus = [
 	["News", [
 		["Arch Linux", "http://archlinux.org"],
 		["Hacker News", "https://news.ycombinator.com/"],
-		["Stuff", "http://stuff.co.nz"]
+		["Stuff", "http://stuff.co.nz"],
+		["The Mittani", "http://themittani.com/"]
+	]],
+	["EVE Online", [
+		["EVE University Forum", "http://forum.eveuniversity.org/"],
+		["EVE University Wiki", "http://wiki.eveuniversity.org/"],
+		["DOTLAN EveMaps", "http://evemaps.dotlan.net/"]
 	]],
 	["4chan", [
 		["/a/ - Anime & Manga", "https://boards.4chan.org/a/catalog"],

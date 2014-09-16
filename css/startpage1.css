@@ -30,7 +30,8 @@ a:hover, a:active {
 	margin: auto;
 	overflow: auto;
 	width: 600px;
-	height: 300px;
+	height: 400px;
+	padding-top: 50px;
 	position: absolute;
 	left: 0;
 	top: 0;
