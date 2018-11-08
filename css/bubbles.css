@@ -1,0 +1,67 @@
+/* Reset */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+h1, p {
+	margin: 0;
+}
+
+
+/* Colours and Style */
+
+/* Colours:
+#293844
+#404640
+#9791A0
+#D8AEAE
+#FFF1DD
+*/
+
+html, body {
+	background: #FFF1DD;
+	color: #404640;
+}
+h1 {
+	color: #9791A0;
+}
+p {
+	color: #D8AEAE;
+}
+a {
+	color: #293844;
+	text-decoration: none;
+}
+
+
+/* Layout */
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+#hero {
+	margin: 2em;
+	padding: 1.5em;
+	z-index: 1000;
+}
+#hero * {
+	margin: 1.2em 0;
+}
+
+.circle {
+	position: absolute;
+	border-radius: 100%;
+}
+
+
+/* Effects */
+
+.fade {
+	transition: opacity 5s linear;
+}
+.fade-out {
+	opacity: 0;
+}
