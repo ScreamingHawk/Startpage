@@ -34,8 +34,10 @@ To get the URL for the desired page you can either download the page (and it's d
 
 #### New Tab page
 
-1. Type `about:config` into the address bar.
-2. Right-click, and modify the `browser.newtab.url` variables value.
+**Firefox no longer supports this natively**
+
+1. Download the [New Tab Override plugin](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/)
+2. Open the plugins settings.
 3. Enter the URL of the desired start page.
 
 ### Internet Explorer
